@@ -9,7 +9,7 @@ redirect_from:
 
 **Ph.D. Student, Department of Statistics and Data Science, Yonsei University**  
 📧 hoyun.byun@yonsei.ac.kr  
-🌐 [Yonsei University Machine Learning & AI Lab](https://mlai.yonsei.ac.kr/home)  
+🌐 [MLAI Lab @ Yonsei Univ.](https://mlai.yonsei.ac.kr/home)  
 
 ## About Me
 I am a Ph.D. student in the **Department of Statistics and Data Science** at **Yonsei University**, advised by **Prof. Kyungwoo Song**. My research interests include **causal representation learning, domain generalization, and large language models**.
