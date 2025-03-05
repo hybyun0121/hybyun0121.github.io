@@ -1,13 +1,11 @@
 ---
 layout: archive
-title: "CV"
+title: "Hoyoon Byun"
 permalink: /cv/
 author_profile: true
 redirect_from:
   - /resume
 ---
-
-# Hoyoon Byun
 
 **Ph.D. Student, Department of Statistics and Data Science, Yonsei University**  
 📧 hoyun.byun@yonsei.ac.kr  
