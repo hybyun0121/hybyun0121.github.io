@@ -20,7 +20,7 @@ You can also find my articles on [my Google Scholar profile](https://scholar.goo
 
 💡 Changdae Oh, Junhyuk So, **Hoyoon Byun**, YongTaek Lim, Minchul Shin, Jong-June Jeon, Kyungwoo Song, **"Geodesic Multi-Modal Mixup for Robust Fine-tuning"**, *NeurIPS 2023* [🔗](https://proceedings.neurips.cc/paper_files/paper/2023/file/a45296e83b19f656392e0130d9e53cb1-Paper-Conference.pdf).  
 
-💡 Heeyoung Lee*, **Hoyoon Byun***, Changdae Oh, JinYeong Bak, Kyungwoo Song, **"Perturb-and-Compare Approach for Detecting Out-of-Distribution Samples in Constrained Access Environments"**, *ECAI 2024* [🔗](https://ebooks.iospress.nl/doi/10.3233/FAIA240724).  
+💡 Heeyoung Lee*, **Hoyoon Byun**\*, Changdae Oh, JinYeong Bak, Kyungwoo Song, **"Perturb-and-Compare Approach for Detecting Out-of-Distribution Samples in Constrained Access Environments"**, *ECAI 2024* [🔗](https://ebooks.iospress.nl/doi/10.3233/FAIA240724).  
 
 💡 Seyun Bae, **Hoyoon Byun**, Changdae Oh, Yoon-Sik Cho, Kyungwoo Song, **"Graph Perceiver IO: A General Architecture for Graph Structured Data"**, *ArXiv* [🔗](https://arxiv.org/abs/2209.06418).
 
