@@ -34,7 +34,7 @@ I am a Ph.D. student in the **Department of Statistics and Data Science** at **Y
    **"LBC: Language-Based-Classifier for Out-Of-Variable Generalization"**, NAACL 2025.
 2. Hakyung Lee, Keon-Hee Park, Hoyoon Byun, et al.,  
    **"CED: Comparing Embedding Differences for Detecting Out-of-Distribution and Hallucinated Text"**, EMNLP 2024 Findings.
-3. Hee-young Lee*, Hoyoon Byun*, Changdae Oh, et al.,  
+3. Hee-young Lee\*, Hoyoon Byun\*, Changdae Oh, et al.,  
    **"Perturb-and-Compare Approach for Detecting Out-of-Distribution Samples in Constrained Access Environments"**, ECAI 2024.
 4. Changdae Oh, Junhyuk So, Hoyoon Byun, et al.,  
    **"Geodesic Multi-Modal Mixup for Robust Fine-tuning"**, NeurIPS 2023.
