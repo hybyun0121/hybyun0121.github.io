@@ -9,13 +9,14 @@ redirect_from:
 
 I am a Ph.D. student in the **Department of Statistics and Data Science** at **Yonsei University**, advised by **[Prof. Kyungwoo Song](https://mlai.yonsei.ac.kr/home)**. My research interests include **causal representation learning, domain generalization, and large language models**.
 
-## Research Interests
+<!-- ## Research Interests
 - Causal Representation Learning
 - Domain Generalization
-- Large Language Models
+- Large Language Models -->
 
 ## Publications
 I have published in leading conferences and journals, including **NeurIPS, NAACL, ECAI, and EMNLP**. My research focuses on **out-of-distribution generalization, metric learning, and multimodal AI applications**.  
+
 In addition, I have recently developed a strong interest in **causal representation learning** and its integration with **Large Language Models (LLMs)** to address various challenges.
 
 ## Education
