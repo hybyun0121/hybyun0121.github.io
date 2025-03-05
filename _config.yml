@@ -215,9 +215,9 @@ collections:
   teaching:
     output: False
     permalink: /:collection/:path/
-  publications:
-    output: False
-    permalink: /:collection/:path/
+  # publications:
+  #   output: False
+  #   permalink: /:collection/:path/
   portfolio:
     output: False
     permalink: /:collection/:path/
