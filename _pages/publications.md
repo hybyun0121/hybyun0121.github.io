@@ -9,6 +9,7 @@ You can also find my articles on [my Google Scholar profile](https://scholar.goo
 
 ---
 ### Conference
+💡 **Hoyoon Byun**, Minhoi Park, Seolah Kim, Eunbi Kim, Kyungwoo Song, **“Exploring the Potential of Foundation Models as Reliable AI Contact Centers”**, *SIGKDD Conference on Knowledge Discovery and Data Mining - Datasets and Benchmarks Track (KDD) 2025* (forthcoming)
 
 💡 Hakyung Lee, Keon-Hee Park, **Hoyoon Byun**, Jeyoon Yeom, Jihee Kim, Gyeong-Moon Park, Kyungwoo Song, **"CED: Comparing Embedding Differences for Detecting Out-of-Distribution and Hallucinated Text"**, *EMNLP 2024 Findings* [🔗](https://aclanthology.org/2024.findings-emnlp.874/).  
 
