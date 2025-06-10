@@ -8,7 +8,7 @@ redirect_from:
 ---
 
 **Ph.D. Student, Department of Statistics and Data Science, Yonsei University**  
-📧 hoyun.byun@yonsei.ac.kr  
+📧 hoyun dot byun at yonsei dot ac dot kr  
 🌐 [MLAI Lab @ Yonsei Univ.](https://mlai.yonsei.ac.kr/home)  
 
 ## About Me
