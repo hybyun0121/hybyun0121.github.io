@@ -15,7 +15,7 @@ I am a Ph.D. student in the **Department of Statistics and Data Science** at **Y
 - Large Language Models -->
 
 ## Publications
-I have published in leading conferences and journals, including **NeurIPS, NAACL, ECAI, and EMNLP**. My research focuses on **out-of-distribution generalization, metric learning, and multimodal AI applications**.  
+I have published in leading conferences and journals, including **NeurIPS, NAACL, ECAI, KDD and EMNLP**. My research focuses on **out-of-distribution generalization, metric learning, and multimodal AI applications**.  
 
 In addition, I have recently developed a strong interest in **causal representation learning** and its integration with **Large Language Models (LLMs)** to address various challenges.
 
