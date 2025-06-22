@@ -26,6 +26,8 @@ You can also find my articles on [my Google Scholar profile](https://scholar.goo
 💡 Seyun Bae, **Hoyoon Byun**, Changdae Oh, Yoon-Sik Cho, Kyungwoo Song, **"Graph Perceiver IO: A General Architecture for Graph Structured Data"**, *ArXiv* [🔗](https://arxiv.org/abs/2209.06418).
 
 ### Journal
+💡 Seyun Bae, **Hoyoon Byun**, Changdae Oh, Yoon-Sik Cho, Kyungwoo Song,  
+  **"Graph perceiver IO: A general architecture for graph-structured data"**, *Pattern Recognition*. [🔗](https://www.sciencedirect.com/science/article/abs/pii/S0031320325005497).  
 
 💡 **Hoyoon Byun**, Sungjun Lim, and Kyungwoo Song, **"GFML: Gravity Function for Metric Learning"**, *Engineering Applications of Artificial Intelligence (EAAI)* [🔗](https://www.sciencedirect.com/science/article/abs/pii/S095219762401621X).  
 

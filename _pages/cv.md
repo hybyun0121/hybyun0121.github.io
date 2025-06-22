@@ -31,20 +31,22 @@ I am a Ph.D. student in the **Department of Statistics and Data Science** at **Y
 
 ### Conference
 1. Hoyoon Byun, Minhoi Park, Seolah Kim, Eunbi Kim, Kyungwoo Song,  
-   **“Exploring the Potential of Foundation Models as Reliable AI Contact Centers”**, KDD Datasets and Benchmarks Track  2025 (forthcoming).
+   **“Exploring the Potential of Foundation Models as Reliable AI Contact Centers”**, KDD Datasets and Benchmarks Track  2025.
 1. Kangjun Noh, Baekryun Seong, Hoyoon Byun, Youngjun Choi, Sungjin Song, and Kyungwoo Song,  
    **"LBC: Language-Based-Classifier for Out-Of-Variable Generalization"**, NAACL 2025.
-1. Hakyung Lee, Keon-Hee Park, Hoyoon Byun, et al.,  
+1. Hakyung Lee, Keon-Hee Park, Hoyoon Byun, Jeyoon Yeom, Jihee Kim, Gyeong-Moon Park, Kyungwoo Song,  
    **"CED: Comparing Embedding Differences for Detecting Out-of-Distribution and Hallucinated Text"**, EMNLP 2024 Findings.
-1. Hee-young Lee\*, Hoyoon Byun\*, Changdae Oh, et al.,  
+1. Heeyoung Lee\*, Hoyoon Byun\*, Changdae Oh, JinYeong Bak, Kyungwoo Song,  
    **"Perturb-and-Compare Approach for Detecting Out-of-Distribution Samples in Constrained Access Environments"**, ECAI 2024.
-1. Changdae Oh, Junhyuk So, Hoyoon Byun, et al.,  
+1. Changdae Oh, Junhyuk So, Hoyoon Byun, YongTaek Lim, Minchul Shin, Jong-June Jeon, Kyungwoo Song,  
    **"Geodesic Multi-Modal Mixup for Robust Fine-tuning"**, NeurIPS 2023.
 
 ### Journal
+1. Seyun Bae, Hoyoon Byun, Changdae Oh, Yoon-Sik Cho, Kyungwoo Song,  
+  **"Graph perceiver IO: A general architecture for graph-structured data"**, Pattern Recognition.
 1. Hoyoon Byun, Sungjun Lim, and Kyungwoo Song,  
    **"GFML: Gravity Function for Metric Learning"**, *Engineering Applications of Artificial Intelligence* (EAAI).
-1. Jeyoon Yeom, Hakyung Lee, Hoyoon Byun, et al.,  
+1. Jeyoon Yeom, Hakyung Lee, Hoyoon Byun, Yewon Kim, Jeongeun Byun, Yunjeong Choi, Sungjin Kim, Kyungwoo Song,  
    **"TC-Llama 2: Korean Large Language Model for Technology-Commercialization Data"**, *Journal of Big Data (SCIE)*.
 
 (*Equal Contribution)
