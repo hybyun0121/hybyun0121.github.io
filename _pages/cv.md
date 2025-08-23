@@ -42,6 +42,7 @@ I am a Ph.D. student in the **Department of Statistics and Data Science** at **Y
    **"Geodesic Multi-Modal Mixup for Robust Fine-tuning"**, NeurIPS 2023.
 
 ### Journal
+1. Jinho Kang, **Hoyoon Byun**, Taero Kim, Jiyoung Jung, Kyungwoo Song, **"Multi-query frequency prompting for physiological signal domain adaptation"**, Knowledge-Based Systems
 1. Seyun Bae, Hoyoon Byun, Changdae Oh, Yoon-Sik Cho, Kyungwoo Song,  
   **"Graph perceiver IO: A general architecture for graph-structured data"**, Pattern Recognition.
 1. Hoyoon Byun, Sungjun Lim, and Kyungwoo Song,  
@@ -66,11 +67,17 @@ I am a Ph.D. student in the **Department of Statistics and Data Science** at **Y
 - "LBC: Language-Based-Classifier for Out-Of-Variable Generalization", IJCAI 2024 Workshop (Oral Presentation)
 - "Flat Posterior For Bayesian Model Averaging", IJCAI 2024 DSO Workshop
 
-## Teaching Experience
-- **Linear Algebra with Applications**, University of Seoul (Sep. 2023 – Dec. 2023)  
-  *Teaching Assistant*
+## Experience
+- *Visiting Researcher*, **Australian National University** (July, 25, 2025 - Aug, 22, 2025)\
+  Short-term research visit under supervision of Prof. Lexing Xie.
+- *Course Assistant*, **ML for RecSys, Naver Boostcamp AI Tech (The 8th class)** (July, 28, 2025 – Present)\
+Developed practice materials and evaluation problems
+- *Course Assistant*, **ML for RecSys, Naver Boostcamp AI Tech (The 7th class)** (July, 01, 2024 – Sep, 09, 2024)\
+Developed practice materials and evaluation problems
+- *Teaching Assistant*, **Linear Algebra with Applications**, University of Seoul (Sep. 2023 – Dec. 2023)  
 
 ## Research Projects
+- **Developing Training Methods for LLMs that Adapt Well to New Knowledge** (Mar. 2025 - Present)
 - **AI-Based Personalized Blood Pressure Estimation** (Apr. 2024 – Dec. 2024)
 - **Generative AI for Smart Consultation** (Jul. 2023 – Dec. 2023)
 - **Multi-category Mapping between Heterogeneous Data** (Mar. 2023 – Oct. 2023)
