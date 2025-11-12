@@ -30,8 +30,12 @@ I am a Ph.D. student in the **Department of Statistics and Data Science** at **Y
 ## Publications
 
 ### Conference
+1. Hoyoon Byun, Gyeongdeok Seo, Joonseong Kang, Taero Kim, Jihee Kim, Kyungwoo Song,
+   **"CCL: Causal-aware In-context Learning for Out-of-Distribution Generalization"**, NeurIPS 2025.
 1. Hoyoon Byun, Minhoi Park, Seolah Kim, Eunbi Kim, Kyungwoo Song,  
    **“Exploring the Potential of Foundation Models as Reliable AI Contact Centers”**, KDD Datasets and Benchmarks Track  2025.
+1. Sungjun Lim, Jeyoon Yeom, Sooyon Kim, **Hoyoon Byun**, Jinho Kang, Yohan Jung, Jiyoung Jung, Kyungwoo Song,
+   **"Flat Posterior Does Matter For Bayesian Model Averaging"**, UAI 2025
 1. Kangjun Noh, Baekryun Seong, Hoyoon Byun, Youngjun Choi, Sungjin Song, and Kyungwoo Song,  
    **"LBC: Language-Based-Classifier for Out-Of-Variable Generalization"**, NAACL 2025.
 1. Hakyung Lee, Keon-Hee Park, Hoyoon Byun, Jeyoon Yeom, Jihee Kim, Gyeong-Moon Park, Kyungwoo Song,  
@@ -53,15 +57,13 @@ I am a Ph.D. student in the **Department of Statistics and Data Science** at **Y
 (*Equal Contribution)
 
 <!-- ### Under Review
-- "Exploring the Potential of Foundation Models as Reliable AI Contact Centers"
-- "CCL: Causal-aware In-context Learning for Out-of-Distribution Generalization"
+- "Bounded Hyperbolic Tangent: A Stable and Efficient Alternative to Pre-Layer Normalization in Large Language Models" Hoyoon Byun, Youngjun Choi, Taero Kim, Sungrae Park, Kyungwoo Song, ICLR 2026
+- "MIDUS: Memory-Infused Depth Up-Scaling", Taero Kim, Hoyoon Byun, Youngjun Choi, Sungrae Park, Kyungwoo Song, ICLR 2026
 - "CBPE: Causal relation-aware Blood Pressure Estimation with Multimodal Data"
-- "Multi-Query Frequency Prompting for Physiological Signal Domain Adaptation"
 - "Flat Posterior Does Matter For Bayesian Transfer Learning"
-- "Multi-modal Learning for Social Event Analysis"
-- "Graph Perceiver IO: A General Architecture for Graph Structured Data" -->
 
 ### Workshops
+- "A Double-Edged Sword: Benchmarking the Trade-off Between Bias Mitigation and Helpfulness of LLM Guardrails in Finance",  FinAI Workshop in CIKM 2025
 - "Exploring the Potential of Foundation Models as Reliable AI Contact Centers", IJCAI 2024 Workshop (Oral Presentation)
 - "H-Consistency Bounded Critic for Enhancing Retrieval-Augmented Generation", IJCAI 2024 Workshop
 - "LBC: Language-Based-Classifier for Out-Of-Variable Generalization", IJCAI 2024 Workshop (Oral Presentation)

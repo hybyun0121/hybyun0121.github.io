@@ -9,6 +9,8 @@ You can also find my articles on [my Google Scholar profile](https://scholar.goo
 
 ---
 ### Conference
+💡 **Hoyoon Byun**, Gyeongdeok Seo, Joonseong Kang, Taero Kim, Jihee Kim, Kyungwoo Song, **"CCL: Causal-aware In-context Learning for Out-of-Distribution Generalization"**, *NeurIPS 2025* [🔗](https://neurips.cc/virtual/2025/loc/san-diego/poster/119001)
+
 💡 **Hoyoon Byun**, Minhoi Park, Seolah Kim, Eunbi Kim, Kyungwoo Song, **“Exploring the Potential of Foundation Models as Reliable AI Contact Centers”**, *KDD 2025 Datasets and Benchmarks Track* [🔗](https://dl.acm.org/doi/10.1145/3711896.3737420).
 
 💡 Hakyung Lee, Keon-Hee Park, **Hoyoon Byun**, Jeyoon Yeom, Jihee Kim, Gyeong-Moon Park, Kyungwoo Song, **"CED: Comparing Embedding Differences for Detecting Out-of-Distribution and Hallucinated Text"**, *EMNLP 2024 Findings* [🔗](https://aclanthology.org/2024.findings-emnlp.874/).  
