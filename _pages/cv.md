@@ -30,6 +30,8 @@ I am a Ph.D. student in the **Department of Statistics and Data Science** at **Y
 ## Publications
 
 ### Conference
+1. Hoyoon Byun, Sumin Park, Jinho Kang, Hyeonjeong Lee, Minseong Kim, Doosik Kim, Kwang-Young Kim and Kyungwoo Song,
+   **CBPE: Causal-aware Blood Pressure Estimation with Multimodal Data**, ACM SAC 2026.
 1. Hoyoon Byun, Gyeongdeok Seo, Joonseong Kang, Taero Kim, Jihee Kim, Kyungwoo Song,
    **"CCL: Causal-aware In-context Learning for Out-of-Distribution Generalization"**, NeurIPS 2025.
 1. Hoyoon Byun, Minhoi Park, Seolah Kim, Eunbi Kim, Kyungwoo Song,  
@@ -56,11 +58,9 @@ I am a Ph.D. student in the **Department of Statistics and Data Science** at **Y
 
 (*Equal Contribution)
 
-<!-- ### Under Review
-- "Bounded Hyperbolic Tangent: A Stable and Efficient Alternative to Pre-Layer Normalization in Large Language Models" Hoyoon Byun, Youngjun Choi, Taero Kim, Sungrae Park, Kyungwoo Song, ICLR 2026
-- "MIDUS: Memory-Infused Depth Up-Scaling", Taero Kim, Hoyoon Byun, Youngjun Choi, Sungrae Park, Kyungwoo Song, ICLR 2026
-- "CBPE: Causal relation-aware Blood Pressure Estimation with Multimodal Data"
-- "Flat Posterior Does Matter For Bayesian Transfer Learning"
+### Under Review
+- "Bounded Hyperbolic Tangent: A Stable and Efficient Alternative to Pre-Layer Normalization in Large Language Models" Hoyoon Byun, Youngjun Choi, Taero Kim, Sungrae Park, Kyungwoo Song
+- "MIDUS: Memory-Infused Depth Up-Scaling", Taero Kim, Hoyoon Byun, Youngjun Choi, Sungrae Park, Kyungwoo Song
 
 ### Workshops
 - "A Double-Edged Sword: Benchmarking the Trade-off Between Bias Mitigation and Helpfulness of LLM Guardrails in Finance",  FinAI Workshop in CIKM 2025
