@@ -31,7 +31,7 @@ I am a Ph.D. student in the **Department of Statistics and Data Science** at **Y
 ## Publications
 
 ### Conference
-1. Hoyoon Byun, Sumin Park, Jinho Kang, Hyeonjeong Lee, Minseong Kim, Doosik Kim, Kwang-Young Kim and Kyungwoo Song,
+1. Hoyoon Byun Youngjun Choi, Taero Kim, Sungrae Park and Kyungwoo Song,
    **Bounded Hyperbolic Tangent: A Stable and Efficient Alternative to Pre-Layer Normalization in Large Language Models**, ICML 2026.
 1. Gyeongdeok Seo, Jaeyoon Shim, Mingyu Kim, Hoyoon Byun, Yonghan Jung, Kyungwoo Song,
    **Dissecting Causal Mechanism Shifts via FANS: Function And Noise Separation**, ICML 2026.
