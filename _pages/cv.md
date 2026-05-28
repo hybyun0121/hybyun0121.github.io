@@ -12,12 +12,13 @@ redirect_from:
 🌐 [MLAI Lab @ Yonsei Univ.](https://mlai.yonsei.ac.kr/home)  
 
 ## About Me
-I am a Ph.D. student in the **Department of Statistics and Data Science** at **Yonsei University**, advised by **Prof. Kyungwoo Song**. My research interests include **causal representation learning, domain generalization, and large language models**.
+
+I am a Ph.D. student in the **Department of Statistics and Data Science** at **Yonsei University**, advised by **Prof. Kyungwoo Song**. My research interests lie in understanding the fundamental limitations of state-of-the-art AI systems and developing principled approaches to overcome them from diverse perspectives, including self-evolving AI, causal representation learning, and domain generalization.
 
 ## Research Interests
+- Self-evolving AI
 - Causal Representation Learning
 - Domain Generalization
-- Large Language Models
 
 ## Education
 - **Yonsei University, Korea** – Ph.D. in Statistics and Data Science (2024–Present)
@@ -30,6 +31,10 @@ I am a Ph.D. student in the **Department of Statistics and Data Science** at **Y
 ## Publications
 
 ### Conference
+1. Hoyoon Byun, Sumin Park, Jinho Kang, Hyeonjeong Lee, Minseong Kim, Doosik Kim, Kwang-Young Kim and Kyungwoo Song,
+   **Bounded Hyperbolic Tangent: A Stable and Efficient Alternative to Pre-Layer Normalization in Large Language Models**, ICML 2026.
+1. Gyeongdeok Seo, Jaeyoon Shim, Mingyu Kim, Hoyoon Byun, Yonghan Jung, Kyungwoo Song,
+   **Dissecting Causal Mechanism Shifts via FANS: Function And Noise Separation**, ICML 2026.
 1. Hoyoon Byun, Sumin Park, Jinho Kang, Hyeonjeong Lee, Minseong Kim, Doosik Kim, Kwang-Young Kim and Kyungwoo Song,
    **CBPE: Causal-aware Blood Pressure Estimation with Multimodal Data**, ACM SAC 2026.
 1. Hoyoon Byun, Gyeongdeok Seo, Joonseong Kang, Taero Kim, Jihee Kim, Kyungwoo Song,

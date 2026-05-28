@@ -1,16 +1,21 @@
 ---
-layout: archive
+
+## layout: archive
 title: "Publications"
 permalink: /publications/
 author_profile: true
----
 
 You can also find my articles on [Google Scholar profile](https://scholar.google.com/citations?hl=ko&user=55yqBlMAAAAJ)
 
 ---
+
 ### Conference
 
-**Hoyoon Byun**, Sumin Park, Jinho Kang, Hyeonjeong Lee, Minseong Kim, Doosik Kim, Kwang-Young Kim and Kyungwoo Song, **CBPE: Causal-aware Blood Pressure Estimation with Multimodal Data**, *ACM SAC 2026* [🔗].
+💡 **Hoyoon Byun**, Youngjun Choi, Taero Kim, Sungrae Park, Kyungwoo Song, **"Bounded Hyperbolic Tangent: A Stable and Efficient Alternative to Pre-Layer Normalization in Large Language Models"**, *ICML 2026* [🔗](https://icml.cc/virtual/2026/poster/65861).
+
+💡 Gyeongdeok Seo, Jaeyoon Shim, Mingyu Kim, **Hoyoon Byun**, Yonghan Jung, Kyungwoo Song, **"Dissecting Causal Mechanism Shifts via FANS: Function And Noise Separation"**, *ICML 2026* [🔗](https://icml.cc/virtual/2026/poster/65861).
+
+💡 **Hoyoon Byun**, Sumin Park, Jinho Kang, Hyeonjeong Lee, Minseong Kim, Doosik Kim, Kwang-Young Kim and Kyungwoo Song, **CBPE: Causal-aware Blood Pressure Estimation with Multimodal Data**, *ACM SAC 2026* [🔗].
 
 💡 **Hoyoon Byun**, Gyeongdeok Seo, Joonseong Kang, Taero Kim, Jihee Kim, Kyungwoo Song, **"CCL: Causal-aware In-context Learning for Out-of-Distribution Generalization"**, *NeurIPS 2025* [🔗](https://neurips.cc/virtual/2025/loc/san-diego/poster/119001).
 
@@ -24,14 +29,14 @@ You can also find my articles on [Google Scholar profile](https://scholar.google
 
 💡 Changdae Oh, Junhyuk So, **Hoyoon Byun**, YongTaek Lim, Minchul Shin, Jong-June Jeon, Kyungwoo Song, **"Geodesic Multi-Modal Mixup for Robust Fine-tuning"**, *NeurIPS 2023* [🔗](https://proceedings.neurips.cc/paper_files/paper/2023/file/a45296e83b19f656392e0130d9e53cb1-Paper-Conference.pdf).  
 
-💡 Heeyoung Lee\*, **Hoyoon Byun**\*, Changdae Oh, JinYeong Bak, Kyungwoo Song, **"Perturb-and-Compare Approach for Detecting Out-of-Distribution Samples in Constrained Access Environments"**, *ECAI 2024* [🔗](https://ebooks.iospress.nl/doi/10.3233/FAIA240724).  
+💡 Heeyoung Lee, **Hoyoon Byun**, Changdae Oh, JinYeong Bak, Kyungwoo Song, **"Perturb-and-Compare Approach for Detecting Out-of-Distribution Samples in Constrained Access Environments"**, *ECAI 2024* [🔗](https://ebooks.iospress.nl/doi/10.3233/FAIA240724).  
 
-### ArXiv
-💡 **Hoyoon Byun**, Youngjun Choi, Taero Kim, Sungrae Park, Kyungwoo Song, **"Bounded Hyperbolic Tangent: A Stable and Efficient Alternative to Pre-Layer Normalization in Large Language Models"**, *arXiv preprint* [🔗](https://arxiv.org/abs/2601.09719).
+### ArXiv  
 💡 Taero Kim, **Hoyoon Byun**, Youngjun Choi, Sungrae Park, Kyungwoo Song, **"MIDUS: Memory-Infused Depth Up-Scaling"**, *arXiv preprint* [🔗](https://arxiv.org/abs/2512.13751).
 
 ### Journal
-💡 Jinho Kang\*, **Hoyoon Byun**\*, Taero Kim, Jiyoung Jung, Kyungwoo Song, **"Multi-query frequency prompting for physiological signal domain adaptation"**, *Knowledge-Based Systems 2025 (KBS)* [🔗](https://www.sciencedirect.com/science/article/abs/pii/S095070512501127X).
+
+💡 Jinho Kang, **Hoyoon Byun**, Taero Kim, Jiyoung Jung, Kyungwoo Song, **"Multi-query frequency prompting for physiological signal domain adaptation"**, *Knowledge-Based Systems 2025 (KBS)* [🔗](https://www.sciencedirect.com/science/article/abs/pii/S095070512501127X).
 
 💡 Seyun Bae, **Hoyoon Byun**, Changdae Oh, Yoon-Sik Cho, Kyungwoo Song,  
   **"Graph perceiver IO: A general architecture for graph-structured data"**, *Pattern Recognition 2025 (PR)* [🔗](https://www.sciencedirect.com/science/article/abs/pii/S0031320325005497).  
