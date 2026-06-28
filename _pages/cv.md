@@ -64,7 +64,7 @@ I am a Ph.D. student in the **Department of Statistics and Data Science** at **Y
 (*Equal Contribution)
 
 ### Workshops
-- **Hoyoon Byun**, Kangjun Noh, SoMin Kim, Heedong Kim, Jaeyoon Shim, Sungjun Lim, Youngjun Choi, Kyungwoo Song, "RRD: Routing-and-Residual Distillation for Efficient MoE Recovery in Large Language Models", ICML 2026 Workshop on High-dimensional Learning Dynamics
+- "RRD: Routing-and-Residual Distillation for Efficient MoE Recovery in Large Language Models", ICML 2026 Workshop on High-dimensional Learning Dynamics
 - "A Double-Edged Sword: Benchmarking the Trade-off Between Bias Mitigation and Helpfulness of LLM Guardrails in Finance",  FinAI Workshop in CIKM 2025
 - "Exploring the Potential of Foundation Models as Reliable AI Contact Centers", IJCAI 2024 Workshop (Oral Presentation)
 - "H-Consistency Bounded Critic for Enhancing Retrieval-Augmented Generation", IJCAI 2024 Workshop
