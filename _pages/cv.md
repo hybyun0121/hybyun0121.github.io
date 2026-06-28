@@ -74,14 +74,15 @@ I am a Ph.D. student in the **Department of Statistics and Data Science** at **Y
 ## Experience
 - *Visiting Researcher*, **Australian National University** (July, 25, 2025 - Aug, 22, 2025)\
   Short-term research visit under supervision of Prof. Lexing Xie.
-- *Course Assistant*, **ML for RecSys, Naver Boostcamp AI Tech (The 8th class)** (July, 28, 2025 – Present)\
+- *Course Assistant*, **ML for RecSys, Naver Boostcamp AI Tech (The 8th class)** (July, 2025 – Sep, 2025)\
 Developed practice materials and evaluation problems
-- *Course Assistant*, **ML for RecSys, Naver Boostcamp AI Tech (The 7th class)** (July, 01, 2024 – Sep, 09, 2024)\
+- *Course Assistant*, **ML for RecSys, Naver Boostcamp AI Tech (The 7th class)** (July, 2024 – Sep, 2024)\
 Developed practice materials and evaluation problems
 - *Teaching Assistant*, **Linear Algebra with Applications**, University of Seoul (Sep. 2023 – Dec. 2023)  
 
 ## Research Projects
-- **Developing Training Methods for LLMs that Adapt Well to New Knowledge** (Mar. 2025 - Present)
+- **Application Methodology of AI Technologies for Early Detection and Improved Root Cause Consistency in Safety and Quality Issues** (Oct. 2025 - Present)
+- **Developing Training Methods for LLMs that Adapt Well to New Knowledge** (Mar. 2025 - Oct. 2025)
 - **AI-Based Personalized Blood Pressure Estimation** (Apr. 2024 – Dec. 2024)
 - **Generative AI for Smart Consultation** (Jul. 2023 – Dec. 2023)
 - **Multi-category Mapping between Heterogeneous Data** (Mar. 2023 – Oct. 2023)
