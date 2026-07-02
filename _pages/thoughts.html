@@ -1,0 +1,32 @@
+---
+layout: archive
+permalink: /posts/
+title: "Posts"
+author_profile: true
+redirect_from:
+  - /blog/
+  - /thoughts/
+---
+
+{% include base_path %}
+
+<p>
+  Notes on career, research ideas, thinking logs, and thought experiments.
+</p>
+
+<p>
+  Browse by <a href="{{ base_path }}/year-archive/">year</a>,
+  <a href="{{ base_path }}/tags/">tag</a>, or
+  <a href="{{ base_path }}/categories/">category</a>.
+</p>
+
+{% assign posts = site.posts %}
+
+{% if posts.size > 0 %}
+  <h2 class="archive__subtitle">Recent Writing</h2>
+  {% for post in posts %}
+    {% include archive-single.html %}
+  {% endfor %}
+{% else %}
+  <p>No public writing yet.</p>
+{% endif %}

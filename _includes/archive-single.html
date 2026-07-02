@@ -51,6 +51,17 @@
     {% elsif post.excerpt and site.read_more == 'enabled' %}
     <p class="archive__item-excerpt" itemprop="description"><p>{{ post.excerpt | markdownify | remove: '<p>' | remove: '</p>' }}<strong><a href="{{ base_path }}{{ post.url }}" rel="permalink"> Read more</a></strong></p></p>
     {% endif %}
+
+    {% if post.tags[0] or post.categories[0] %}
+      <p class="archive__item-taxonomy">
+        {% for category in post.categories %}
+          <a href="{{ base_path }}{{ site.category_archive.path }}#{{ category | slugify }}" class="page__taxonomy-item" rel="tag">{{ category }}</a>
+        {% endfor %}
+        {% for tag in post.tags %}
+          <a href="{{ base_path }}{{ site.tag_archive.path }}#{{ tag | slugify }}" class="page__taxonomy-item" rel="tag">{{ tag }}</a>
+        {% endfor %}
+      </p>
+    {% endif %}
     
     {% if post.citation and post.paperurl and post.slidesurl %}
       <p>Recommended citation: {{ post.citation }}<br /><a href="{{ post.paperurl }}">Download Paper</a> | <a href="{{ post.slidesurl }}">Download Slides</a></p>
