@@ -1,0 +1,59 @@
+---
+layout: default
+---
+<main class="writing-page" id="main">
+  <a class="writing-back" href="{{ '/posts/' | relative_url }}">&larr; All posts</a>
+  <header class="writing-header">
+    <div class="writing-header__meta">
+      {% include writing-badge.html type=page.writing_type %}
+      <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%Y.%m.%d" }}</time>
+      {% if page.modified %}<span>Updated {{ page.modified | date: "%Y.%m.%d" }}</span>{% endif %}
+    </div>
+    <h1>{{ page.title | escape }}</h1>
+    {% if page.subtitle %}<p class="writing-header__subtitle">{{ page.subtitle | escape }}</p>{% endif %}
+    <p class="writing-header__byline">{% if page.writing_type == 'ai_notes' %}AI 정리{% if page.ai_tool %} · {{ page.ai_tool | escape }}{% endif %}{% if page.edited_by %} / 편집 {{ page.edited_by | escape }}{% endif %}{% else %}{{ page.author_name | default: site.author.name | escape }}{% endif %}</p>
+  </header>
+
+  <div class="writing-grid">
+    <article class="writing-article" aria-label="Article">
+      {% if page.writing_type == 'ai_notes' %}
+      <aside class="writing-provenance" aria-label="작성 방식">
+        <strong>About this note</strong>
+        <p>AI가 원자료를 바탕으로 정리한 글입니다.{% if page.edited_by %} {{ page.edited_by | escape }}이 편집했습니다.{% endif %} 원자료의 주장과 정리 과정의 해석은 본문에서 구분합니다.</p>
+        {% if page.editor_note %}<p>{{ page.editor_note | escape }}</p>{% endif %}
+      </aside>
+      {% endif %}
+
+      {% if page.source_paper %}
+      <section class="writing-source" aria-label="원논문">
+        <span class="writing-eyebrow">Source paper</span>
+        <h2 class="writing-source__title"><a href="{{ page.source_paper.url | escape }}">{{ page.source_paper.title | escape }} &nearr;</a></h2>
+        {% if page.source_paper.authors %}<p>{{ page.source_paper.authors | escape }}</p>{% endif %}
+        {% if page.source_paper.venue %}<p>{{ page.source_paper.venue | escape }}{% if page.source_paper.version %} · {{ page.source_paper.version | escape }}{% endif %}</p>{% endif %}
+      </section>
+      {% endif %}
+
+      {% if page.takeaways.size > 0 %}
+      <section class="writing-takeaways" aria-label="핵심 요약">
+        <span class="writing-eyebrow">At a glance</span>
+        <ul>{% for takeaway in page.takeaways %}<li>{{ takeaway | escape }}</li>{% endfor %}</ul>
+      </section>
+      {% endif %}
+
+      <div class="writing-body" data-writing-body>{{ content }}</div>
+
+      <footer class="writing-end">
+        {% if page.tags.size > 0 %}<ul class="writing-card__tags" aria-label="Tags">{% for tag in page.tags %}<li><a href="{{ '/tags/' | relative_url }}#{{ tag | slugify }}">{{ tag | escape }}</a></li>{% endfor %}</ul>{% endif %}
+        <a href="{{ '/posts/' | relative_url }}">&larr; Back to posts</a>
+      </footer>
+    </article>
+
+    <aside class="writing-toc" data-writing-toc hidden>
+      <details open>
+        <summary>On this page <span>목차</span></summary>
+        <nav aria-label="Table of contents"><ol></ol></nav>
+      </details>
+    </aside>
+  </div>
+</main>
+<script src="{{ '/assets/js/writing.js' | relative_url }}" defer></script>

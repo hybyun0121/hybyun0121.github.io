@@ -1,0 +1,2 @@
+{% assign writing_kind = site.data.writing[include.type] %}
+{% if writing_kind %}<span class="writing-badge writing-badge--{{ include.type }}">{{ writing_kind.label }}</span>{% endif %}

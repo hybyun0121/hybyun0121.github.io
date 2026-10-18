@@ -1,0 +1,12 @@
+<article class="writing-card" data-writing-type="{{ post.writing_type | default: 'other' | escape }}">
+  <div class="writing-card__meta">
+    {% include writing-badge.html type=post.writing_type %}
+    <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%Y.%m.%d" }}</time>
+    {% if post.edited_by %}<span>Edited by {{ post.edited_by | escape }}</span>{% endif %}
+  </div>
+  <h2><a href="{{ post.url | relative_url }}">{{ post.title | escape }}</a></h2>
+  {% if post.excerpt %}<div class="writing-card__excerpt">{{ post.excerpt | markdownify }}</div>{% endif %}
+  {% if post.tags.size > 0 %}<ul class="writing-card__tags" aria-label="Tags">
+    {% for tag in post.tags limit:4 %}<li><a href="{{ '/tags/' | relative_url }}#{{ tag | slugify }}">{{ tag | escape }}</a></li>{% endfor %}
+  </ul>{% endif %}
+</article>

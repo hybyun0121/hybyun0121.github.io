@@ -8,25 +8,27 @@ redirect_from:
   - /thoughts/
 ---
 
-{% include base_path %}
+<div class="writing-index" data-writing-index>
+  <p class="writing-index__intro">Research, ideas, and things I am learning.</p>
+  <div class="writing-legend">
+    {% for kind in site.data.writing %}
+    {% assign kind_key = kind[0] %}
+    <div>{% include writing-badge.html type=kind_key %}<p>{{ kind[1].description }}</p></div>
+    {% endfor %}
+  </div>
 
-<p>
-  Notes on career, research ideas, thinking logs, and thought experiments.
-</p>
+  <div class="writing-filters" role="group" aria-label="Filter posts by authorship" hidden>
+    <button type="button" data-writing-filter="all" aria-pressed="true">All <span>{{ site.posts.size }}</span></button>
+    {% for kind in site.data.writing %}
+      {% assign kind_posts = site.posts | where: 'writing_type', kind[0] %}
+      <button type="button" data-writing-filter="{{ kind[0] }}" aria-pressed="false">{{ kind[1].label }} <span>{{ kind_posts.size }}</span></button>
+    {% endfor %}
+  </div>
 
-<p>
-  Browse by <a href="{{ base_path }}/year-archive/">year</a>,
-  <a href="{{ base_path }}/tags/">tag</a>, or
-  <a href="{{ base_path }}/categories/">category</a>.
-</p>
-
-{% assign posts = site.posts %}
-
-{% if posts.size > 0 %}
-  <h2 class="archive__subtitle">Recent Writing</h2>
-  {% for post in posts %}
-    {% include archive-single.html %}
-  {% endfor %}
-{% else %}
-  <p>No public writing yet.</p>
-{% endif %}
+  <div class="writing-list">
+    {% for post in site.posts %}{% include writing-card.html %}{% endfor %}
+  </div>
+  <p class="writing-empty" data-writing-empty role="status"{% if site.posts.size > 0 %} hidden{% endif %}>아직 공개된 글이 없습니다.</p>
+  <p class="writing-index__browse">Browse by <a href="{{ '/year-archive/' | relative_url }}">year</a>, <a href="{{ '/tags/' | relative_url }}">tag</a>, or <a href="{{ '/categories/' | relative_url }}">category</a>.</p>
+</div>
+<script src="{{ '/assets/js/writing.js' | relative_url }}" defer></script>

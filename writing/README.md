@@ -1,48 +1,73 @@
-# Writing Workflow
+# 글 작성과 게시
 
-Use this site as a small public notebook for career logs, research ideas, thinking records, and thought experiments.
+두 작성 방식이 같은 `writing` 레이아웃을 사용합니다. 목록과 글 상단에서 작성 방식을 표시하며, 태그는 작성 방식과 별개로 주제를 나타냅니다.
 
-## Public posts
+| `writing_type` | 목록 표기 | 용도 |
+| --- | --- | --- |
+| `personal` | Personal | 직접 쓴 글 |
+| `ai_notes` | AI-assisted | AI가 정리한 글. 직접 편집한 글도 여기에 포함 |
 
-Create public posts in `_posts/`.
+기존 글에 분류가 없으면 임의로 Personal로 표시하지 않습니다. Posts의 All과 연도·태그·카테고리 목록에서 그대로 볼 수 있습니다.
 
-File names must use this format:
+## 시작하기
 
-```text
-YYYY-MM-DD-short-title.md
-```
+1. `writing/templates/personal.md` 또는 `writing/templates/ai-note.md`를 복사합니다.
+2. 작업 중에는 `_drafts/short-title.md`에 둡니다. 날짜·제목·요약·태그를 바꾸고, 템플릿의 `published: false`를 지워야 로컬 초안 미리보기에 나옵니다.
+3. 준비가 되면 `_posts/YYYY-MM-DD-short-title.md`로 옮깁니다. 파일명과 `date`를 실제 게시일에 맞춥니다.
+4. 게시 후 수정에는 `modified: YYYY-MM-DD`를 추가할 수 있습니다.
 
-Example front matter:
+`writing/`은 Jekyll 빌드에서 제외되어, 템플릿이 실제 글로 게시되지 않습니다.
 
-```yaml
----
-layout: single
-title: "A Research Idea"
-date: 2026-07-02
-categories:
-  - research
-tags:
-  - idea
-  - agent
----
-```
+## 공통 구성
 
-Posts in `_posts/` are shown at `/posts/`, `/year-archive/`, `/tags/`, and `/categories/`.
+상단은 **작성 방식·날짜 → 제목·부제 → 작성/편집 정보 → 원논문(있는 경우) → 핵심 요약** 순서입니다. 본문 `##`와 `###`에서 자동으로 목차를 만듭니다. 넓은 화면에서는 오른쪽에 고정하고, 좁은 화면에서는 본문 위에 접을 수 있게 표시합니다. JavaScript가 꺼져 있어도 본문과 출처는 읽을 수 있습니다.
 
-If a post has `published: false`, Jekyll will not render it. Remove that line, or set it to `true`, when you want the post to appear publicly.
+`takeaways`는 2–3개가 적당하며, 없으면 요약 박스가 나타나지 않습니다. 목록 소개는 `excerpt`로 따로 작성합니다. 본문에 같은 H1·TL;DR을 반복하지 않습니다.
 
-## Drafts
+### 직접 쓰는 글
 
-Put unfinished drafts in `_drafts/`. Drafts do not appear on the deployed site.
+기본 흐름은 **출발점 → 생각의 전개 → 배운 점과 남은 질문 → 참고자료**입니다. 연구 아이디어, 커리어 기록, 회고에 맞춰 소제목을 자유롭게 바꿉니다.
 
-To preview drafts locally:
+Personal에는 본인이 직접 쓴 글만 등록합니다. 작성용 빈 템플릿은 빌드에서 제외된 `writing/templates/`에 보관하고, AI가 만든 예시 글을 Personal 초안이나 게시글로 넣지 않습니다.
+
+### AI 정리 글
+
+기본 흐름은 **문제와 배경 → 핵심 아이디어(방법·수식) → 실험과 핵심 결과 → 한계와 해석 → 더 생각해볼 질문 → 참고자료**입니다. 긴 용어 정리·Q&A는 접이식 `details`에 넣습니다.
+
+**문제와 배경·핵심 아이디어에 충분한 분량을 배정합니다.** 배경 개념 → 기존 접근의 한계 → 연구 질문을 연결하고, 방법은 직관 → 구성요소 → 한 번의 실행 과정 → 학습·평가의 차이 → 필요한 수식 순으로 풀어 씁니다. 원논문 없이도 문제와 작동 원리를 이해할 수 있는 깊이를 기준으로 하며, 각 절을 짧은 개요로만 끝내지 않습니다. 실험 결과의 분량을 맞추려고 이 두 절을 줄이지 않습니다.
+
+- `ai_tool`: 실제 원고를 정리한 도구. 예: `Claude`.
+- `source_paper`: 원논문의 `title`, `authors`, `venue`, `version`, `url`. 웹에서 열 수 있는 원자료 주소를 사용합니다.
+- `edited_by`: 실제로 직접 편집했을 때만 `Hoyoon Byun` 등을 입력합니다. 이 값이 없으면 직접 편집했다고 표시하지 않습니다.
+- `editor_note`: 무엇을 수정했는지 선택적으로 적습니다. 편집했다고 해서 원논문 전체를 검증했다는 의미는 아닙니다.
+
+논문 결과에는 §/Figure/Table과 평가 조건을 함께 적습니다. AI 해석은 `.note-callout`, 실제로 직접 쓴 의견은 `.note-callout.note-callout--personal`에 작성자와 함께 표시할 수 있습니다. 두 예시는 템플릿에 있습니다.
+
+## 기존 reading_w_Agent 노트 옮기기
+
+`notes/<id>/summary.md`를 재료로 사용하고, `qa.md`는 필요한 내용만 골라 보충합니다.
+
+1. 기존 front matter의 `title`, `authors`, `venue`, `version`, `url`을 `source_paper`로 옮깁니다. 글 제목은 읽기 좋은 별도 제목으로 둡니다.
+2. `read_date`는 독서일입니다. 블로그 `date`에는 게시일을 씁니다.
+3. 기존 H1은 지우고 TL;DR은 `takeaways`로 압축합니다. 숫자가 붙은 H2는 숫자 없이 정리합니다.
+4. 방법·정의·수식, 실험·결과를 필요에 따라 묶되, 평가 조건과 근거 위치를 보존합니다.
+5. `../../sources/...` 링크는 블로그에서 열리지 않습니다. 논문 공개 URL의 Figure/Table 링크로 바꾸거나, 사용할 그림을 `images/posts/<slug>/`에 복사하고 원문 출처를 표기합니다. 로컬 PDF 전체를 그대로 올리지 않습니다.
+6. `.md` 링크는 공개한 글 주소로 바꿉니다. AI가 쓴 “내 연구와 연결”을 본인이 직접 쓴 의견으로 표시하지 않습니다.
+
+인라인 수식은 `$...$` 또는 `\(...\)`, 독립 수식은 `$$...$$`를 사용합니다. 달러 금액의 `$`는 `\$`로 씁니다. 표·코드·수식은 모바일에서 가로로 스크롤할 수 있습니다.
+
+## 미리보기
 
 ```bash
 bundle exec jekyll serve --drafts
 ```
 
-## Private local notes
+실제 AI-assisted 글은 `/posts/`에서 볼 수 있습니다. Personal 예시 글은 두지 않습니다. 기존 테마의 예제 초안도 `published: false`로 숨깁니다. `--unpublished`는 숨겨둔 템플릿까지 표시하므로 일반 미리보기에는 사용하지 않습니다.
 
-Put notes that should stay only on this computer in `_private_posts/`.
+## 2026-10-18 리딩 아카이브 이전
 
-That folder is ignored by git, so it will not be uploaded through normal commits and pushes. Avoid putting private writing in `_posts/` or `_drafts/` if this GitHub repository is public, because committed source files can still be read on GitHub even when Jekyll does not publish them.
+`reading_w_Agent/notes/`의 정리글 17편을 AI-assisted 글로 게시했습니다. 게시일은 이전일을 사용하고 기존 독서일은 `source_read_date`로 보존했습니다. 원노트 ID, 원본 해시, 게시글 주소는 `writing/imports/2026-10-18.json`에 기록합니다.
+
+원논문의 그림 68개를 `images/posts/`에 웹용 이미지로 옮기고 원논문 링크를 캡션에 표시했습니다. 원논문 PDF 전체와 로컬 코드 저장소는 업로드하지 않습니다. Meta-Harness의 추가 Q&A·코드 해설은 해당 글의 접이식 보충 자료에 포함합니다.
+
+초안도 커밋하면 공개 저장소에서 원문을 읽을 수 있습니다. 개인 메모는 Git에서 제외된 `_private_posts/`에 두고, 공개용 원고만 저장소로 가져옵니다.

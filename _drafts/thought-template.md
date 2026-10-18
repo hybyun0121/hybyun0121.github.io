@@ -1,5 +1,6 @@
 ---
-layout: single
+layout: writing
+writing_type: personal
 title: "Title"
 date: 2026-07-02
 categories:

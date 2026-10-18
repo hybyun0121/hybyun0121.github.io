@@ -1,0 +1,6 @@
+personal:
+  label: Personal
+  description: 직접 쓴 연구 아이디어, 경험과 생각의 기록.
+ai_notes:
+  label: AI-assisted
+  description: AI가 정리한 논문·자료 노트. 직접 편집한 경우 글에 별도로 표시합니다.

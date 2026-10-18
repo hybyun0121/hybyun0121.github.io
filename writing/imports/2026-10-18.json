@@ -1,0 +1,127 @@
+{
+  "imported_on": "2026-10-18",
+  "source": "reading_w_Agent/notes/*/summary.md",
+  "count": 17,
+  "posts": [
+    {
+      "source_note_id": "2025-04_ragen-multi-turn-rl",
+      "source_sha256": "73e6144b0745edcc2ab5915d5b62558f68e9ae7c7a2c085e3a6a24e31578042a",
+      "post": "_posts/2026-10-18-ragen-multi-turn-rl.md",
+      "url": "/posts/ragen-multi-turn-rl/",
+      "source_read_date": "2026-10-18"
+    },
+    {
+      "source_note_id": "2025-09_greedy-meta-bandit",
+      "source_sha256": "fca67120eb724684c9d586e571077d49f154fc15ed688c91b7e7a9b5ade3ff13",
+      "post": "_posts/2026-10-18-greedy-meta-bandit.md",
+      "url": "/posts/greedy-meta-bandit/",
+      "source_read_date": "2026-10-18"
+    },
+    {
+      "source_note_id": "2025-12_meta-rl-exploration",
+      "source_sha256": "6ff81954bbaf8acd737cede9806dd2bc455117a1490d0ee7da52e73746706bde",
+      "post": "_posts/2026-10-18-meta-rl-exploration.md",
+      "url": "/posts/meta-rl-exploration/",
+      "source_read_date": "2026-10-18"
+    },
+    {
+      "source_note_id": "2026-01_generalization-tax-agent-rl",
+      "source_sha256": "a977f43788cf337e8f1ab7fbbbc2187aa66e19b5397afa5a68450e243bb2b048",
+      "post": "_posts/2026-10-18-generalization-tax-agent-rl.md",
+      "url": "/posts/generalization-tax-agent-rl/",
+      "source_read_date": "2026-10-17"
+    },
+    {
+      "source_note_id": "2026-02_selective-transition-correction",
+      "source_sha256": "f8c16dea445ed21b17f9de751f9e9506ab18b8794886c07382ffd8258163787a",
+      "post": "_posts/2026-10-18-selective-transition-correction.md",
+      "url": "/posts/selective-transition-correction/",
+      "source_read_date": "2026-10-18"
+    },
+    {
+      "source_note_id": "2026-03_meta-harness",
+      "source_sha256": "99b6450a1f863978399d3e48b30a35cfd11ce6243399cadb30901472099458dc",
+      "post": "_posts/2026-10-18-meta-harness.md",
+      "url": "/posts/meta-harness/",
+      "source_read_date": "2026-10-18"
+    },
+    {
+      "source_note_id": "2026-05_structural-causal-decision-processes",
+      "source_sha256": "8c5840264f92d5dcbb77e05ffc7459da86cb85cfa36e3fb2a20b3746a422e4a3",
+      "post": "_posts/2026-10-18-structural-causal-decision-processes.md",
+      "url": "/posts/structural-causal-decision-processes/",
+      "source_read_date": "2026-10-18"
+    },
+    {
+      "source_note_id": "2026-08_autosaddler-harness-optimization",
+      "source_sha256": "303564cea0bae65ed3548cbc3de0fed24199557b7194c8209831a9c5111a7e87",
+      "post": "_posts/2026-10-18-autosaddler-harness-optimization.md",
+      "url": "/posts/autosaddler-harness-optimization/",
+      "source_read_date": "2026-10-18"
+    },
+    {
+      "source_note_id": "2026-08_evoharness-rl",
+      "source_sha256": "1863d1110e9a31ff6136e472a657a007788e5aff95c1a30f8e1d5b6939af24e5",
+      "post": "_posts/2026-10-18-evoharness-rl.md",
+      "url": "/posts/evoharness-rl/",
+      "source_read_date": "2026-10-18"
+    },
+    {
+      "source_note_id": "2026-09_environmental-novelty-adaptation",
+      "source_sha256": "c0a21b6e716d089775c40e2d35f6ae42069825650f484136f74f66fb39d8e3e2",
+      "post": "_posts/2026-10-18-environmental-novelty-adaptation.md",
+      "url": "/posts/environmental-novelty-adaptation/",
+      "source_read_date": "2026-10-17"
+    },
+    {
+      "source_note_id": "2026-09_harness-learning",
+      "source_sha256": "eb22543402f1c83dd7761f4b46335436e1be6646faa7bbbaeac8904c8bf54bec",
+      "post": "_posts/2026-10-18-harness-learning.md",
+      "url": "/posts/harness-learning/",
+      "source_read_date": "2026-10-18"
+    },
+    {
+      "source_note_id": "2026-09_harness-zero",
+      "source_sha256": "fce3275cfa66dea54f297efcbd708297e82737f7815c10554375900887c10040",
+      "post": "_posts/2026-10-18-harness-zero.md",
+      "url": "/posts/harness-zero/",
+      "source_read_date": "2026-10-18"
+    },
+    {
+      "source_note_id": "2026-09_liteevo-harness-evolution",
+      "source_sha256": "5a471abb87e26e869e7c7ea8e1bc3d7fa6a3b15da6a843cd14f2ce2d4279b677",
+      "post": "_posts/2026-10-18-liteevo-harness-evolution.md",
+      "url": "/posts/liteevo-harness-evolution/",
+      "source_read_date": "2026-10-18"
+    },
+    {
+      "source_note_id": "2026-09_modularrsi-harness-improvement",
+      "source_sha256": "ad29a6df3ce18ffc7f42d535243c984d2519f1975e3f836a348e7fe0275d417a",
+      "post": "_posts/2026-10-18-modularrsi-harness-improvement.md",
+      "url": "/posts/modularrsi-harness-improvement/",
+      "source_read_date": "2026-10-18"
+    },
+    {
+      "source_note_id": "2026-10_agent-plasticity",
+      "source_sha256": "7fe00268ec79c32e653eaa2fa9c9fd1a3ec1cafa0c4e702fbeabea8b3c0272c9",
+      "post": "_posts/2026-10-18-agent-plasticity.md",
+      "url": "/posts/agent-plasticity/",
+      "source_read_date": "2026-10-13"
+    },
+    {
+      "source_note_id": "2026-10_logra-gradient-sketches",
+      "source_sha256": "d9e71e55a0af98121f12be7f51dd530094f5224b5b6f99ea30da1ab81b988208",
+      "post": "_posts/2026-10-18-logra-gradient-sketches.md",
+      "url": "/posts/logra-gradient-sketches/",
+      "source_read_date": "2026-10-14"
+    },
+    {
+      "source_note_id": "2026-10_memco-memory-collaboration",
+      "source_sha256": "432c659ce7311abb3427bc3bcd0bd8671d08a96d4d2e67bd1358d5c7fb6e10ad",
+      "post": "_posts/2026-10-18-memco-memory-collaboration.md",
+      "url": "/posts/memco-memory-collaboration/",
+      "source_read_date": "2026-10-18"
+    }
+  ],
+  "figure_count": 68
+}
