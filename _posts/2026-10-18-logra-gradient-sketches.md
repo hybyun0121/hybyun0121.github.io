@@ -265,4 +265,5 @@ $$\alpha=\min\{\alpha_{\max},\sqrt{\delta/q(D)}\}$$
 | RowAdam | 행 단위 second moment만 두고 momentum은 없는 sketch optimizer |
 | Dense Adam | 압축 없이 full gradient와 per-parameter Adam moment를 쓰는 baseline |
 | Pass@k | 문제당 k개 샘플 중 하나라도 맞을 확률(여기서는 문제당 샘플 4개로 추정) |
+
 </details>

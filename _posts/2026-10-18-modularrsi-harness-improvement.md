@@ -296,4 +296,5 @@ SWE-related data의 난이도를 중간에 집중한 조건은 SWE accuracy **76
 | **Function library** | evolution된 function variant의 집합. 최종 평가 전에 고정됨 |
 | **Composer** | task 설명을 보고 기존 function 중 활성화할 subset을 고르는 LLM |
 | **Pass@3 / Pass³** | 세 번 중 한 번 이상 성공 / 세 번 모두 성공한 task 비율 |
+
 </details>

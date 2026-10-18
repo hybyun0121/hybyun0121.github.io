@@ -198,4 +198,5 @@ SFT도 정확한 알고리즘 전이를 보장하지 않는다. Bernoulli-only d
 | UCB | Observed mean에 uncertainty bonus를 더해 arm을 선택하는 알고리즘 |
 | Suffix failure | 남은 horizon 동안 true best arm을 한 번도 고르지 않는 사건 |
 | Exploitation bias | 불확실한 대안을 계속 탐색하기보다 현재 좋아 보이는 선택에 굳어지는 경향 |
+
 </details>

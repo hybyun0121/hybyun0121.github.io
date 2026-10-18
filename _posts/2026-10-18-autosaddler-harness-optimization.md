@@ -300,4 +300,5 @@ Weak supervision 후보로 trace inconsistency, tool-call error, rollout 간 sel
 | Pass@1 | 한 번의 task 시도에서 성공할 확률. 여기서는 고른 harness를 반복 평가해 추정 |
 | Stateful / stateless | 이 문맥에서는 task 사이 상태·경험이 지속되는지의 구분 |
 | %p / pp | 두 백분율 점수의 차이. 상대 증가율과 구분 |
+
 </details>

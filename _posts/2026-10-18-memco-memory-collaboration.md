@@ -265,4 +265,5 @@ Qwen3-32B ALFWorld, 같은 frozen local snapshot에서 비교:
 | **support role** | 선택된 entry의 현재 결정에서의 용도. grounding / workflow / reflection |
 | **Familiar / Held-out layout** | ALFWorld의 official `valid_seen` / `valid_unseen` split |
 | **unseen environment (이 논문)** | 평가 대상 agent가 경험을 쌓은 적 없는 환경. agent 기준의 정의다 |
+
 </details>

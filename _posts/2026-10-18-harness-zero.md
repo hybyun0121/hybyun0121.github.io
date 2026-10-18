@@ -224,4 +224,5 @@ Teacher + `h★` trajectory를 그대로 학습하면 student가 없는 harness-
 | Reference harness `K` | Reviewer만 읽는, evolved harness에서 변환된 private guidance |
 | Accepted trajectory | 실제 실행된 응답과 student-visible observation의 기록 |
 | Behavior recovery | `h★`에서만 보였던 pattern을 선택된 task에서 재현하는 비율 |
+
 </details>

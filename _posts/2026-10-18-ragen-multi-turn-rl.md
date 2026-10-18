@@ -191,4 +191,5 @@ Reasoning length 감소만으로 추론 능력 감소를 확정할 수 없다. N
 | StarPO-S | Filtering·critic·gradient shaping을 활용한 안정화 variant |
 | Outcome uncertainty | 같은 초기 상태의 rollout reward 표준편차 |
 | Online-k | 한 rollout batch를 k번의 policy update에 재사용하는 설정 |
+
 </details>

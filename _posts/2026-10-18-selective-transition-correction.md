@@ -185,4 +185,5 @@ Forward와 inverse를 같은 작은 target dataset으로 학습하므로, 두 �
 | Selective correction | Forward-model 오차 기준으로 보정본 또는 원본 선택 |
 | Normalized score | Random·expert return을 기준으로 정규화한 평가값 |
 | Dynamics mismatch | 같은 state·action에 대한 다음 state 분포의 차이 |
+
 </details>

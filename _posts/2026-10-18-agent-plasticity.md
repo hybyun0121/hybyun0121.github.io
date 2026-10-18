@@ -309,4 +309,5 @@ Chess(Hard+Easy), Go, Hex 평균 곡선 기준:
 | $P^{\text{sat}}$ | 포화(90% 상승) 시점까지의 plasticity |
 | Decision-level reuse | 관련 artifact가 있는 결정 중 실제로 사용한 비율 |
 | $\mathcal{F}_{\text{absent/missed/used}}$ | 실패 원인 분류: artifact 없음 / 있었는데 안 씀 / 썼는데 실패 |
+
 </details>

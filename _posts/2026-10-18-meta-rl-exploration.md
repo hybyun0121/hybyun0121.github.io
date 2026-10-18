@@ -212,4 +212,5 @@ Distinct state·action trajectory의 경험적 분포로 entropy를 측정한다
 | In-context adaptation | Weight는 고정하고 context를 바꿔 행동을 바꾸는 방식 |
 | Reflection | 이전 실패 분석과 다음 시도의 계획을 담은 모델 출력 |
 | p@k | 이 논문에서 최대 k회 시도 내 성공률; LaMer의 시도들은 서로 의존 |
+
 </details>

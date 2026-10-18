@@ -331,4 +331,5 @@ $$D_{\text{clean}}=T_1\cup T_2,\quad D_{\text{novel-unpaired}}=T_2\cup T_1',\qua
 | ECHO | GRPO에 terminal output 예측 auxiliary loss를 더해 world model을 함께 학습하는 post-training 방법 |
 | Endless Terminals (ET), TB-Lite, TB-2 | terminal task 소스. ET는 대규모 생성형(학습+평가), TB-Lite와 Terminal-Bench 2는 평가 전용 |
 | Terminus-2 | 평가와 construction에 쓴 terminal agent harness |
+
 </details>

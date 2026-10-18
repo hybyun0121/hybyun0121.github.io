@@ -49,6 +49,7 @@ SCDM = `(V, Z, ℰ, (X, D, U), Pr, f, Γ, θ)`
 - `Γ_D`: decision constraint — 부모 값에 따라 허용 행동 집합을 정함 (예: 예산 제약 `c₁ ≤ b₁`)
 
 SCIM과의 차이(저자 정리):
+
 | 항목 | SCIM | SCDM |
 |---|---|---|
 | 행동 제약 | 없음 | `Γ` 명시 (control theory의 binding constraint와 결합) |
@@ -98,6 +99,7 @@ SCIM과의 차이(저자 정리):
 **실험 없음.** 모든 논증은 정의·정리·복잡도 분석과 경제학 toy 예제로 이뤄진다. 구현체로 오픈소스 라이브러리 **`scikit-agent`**(https://github.com/scikit-agent/scikit-agent)를 언급하지만, 논문 안에서 이를 써서 측정한 결과는 없다.
 
 예제 목록:
+
 | § | 예제 | 보여주려는 것 |
 |---|---|---|
 | 3.1 | Fisher 2기간 소비 | `a₁`이 bridge. `c₂`는 사실상 결정됨(`c₂ = b₂ + y₂`) → 1차원 continuation value `v₂(b₂)` |
@@ -189,4 +191,5 @@ discount 변수와 end-state 매핑만 추가하면 SCDM에서 P-block을 기계
 | **resource rationality** | 인지 자원의 비용을 utility에 명시적으로 넣고 그 하에서 최적화한다고 보는 인지 모델링 관점 |
 | **habit formation** | 과거 소비가 현재 효용의 기준점이 되는 선호 (`∂u/∂h < 0`) |
 | **EGM** | Endogenous Grid Method. 소비-저축 문제의 효율적 해법 (Lujan의 EGMⁿ이 다단계 분해 버전) |
+
 </details>

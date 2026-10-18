@@ -251,4 +251,5 @@ $$\Delta_{\text{OOD}} = \frac{\sum_{e\in\mathcal E^{\text{eval}}}\big(G(\pi_{\te
 | Ckpt V1 / V2 | WebShop 20-step RL 체크포인트 / V1 + SFT warmup 체크포인트 |
 | Reactive policy | reasoning 없이 state에서 바로 action을 출력하는 정책(w/o Thinking) |
 | GRPO | group 내 reward를 정규화해 advantage를 계산하는 critic-free RL |
+
 </details>
